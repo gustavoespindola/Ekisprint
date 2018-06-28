@@ -1,0 +1,58 @@
+// Webarch Default Theme  
+// --------------------------------------------------
+// Copyright Reserved Revox - 2014
+// --------------------------------------------------
+
+// Import Vars
+@import "var.less";
+
+//Theme Overwrite
+
+
+body{
+	letter-spacing: -.25px !important;
+	// font-family: futura;
+	h1, h2, h3, h4, h5, h6{
+		// font-family: futura;
+	}
+	p{
+		letter-spacing: -.15px;
+	}
+	.block-title {
+	    font-family: inherit;
+	    font-weight: 400;
+	    font-size: inherit;
+	    text-transform: uppercase;
+	    letter-spacing: 0.03em;
+	}
+	.btn-primary{
+		background-color: #3951FF;
+		border: 0;
+		// font-family: futura;
+		&:hover{
+			background-color: #4366ff;
+			border: 0;
+		}
+		&:focus, &.active, &:active, &.active:focus, &:active:focus, &:active:hover {
+			background-color: #2b47d0 !important;
+			border: 0;
+			box-shadow: 0 6px 20px rgba(0, 0, 0, .08);
+			transition: all 0.2s;
+		}
+	}
+	.jumbo{
+		h1{
+			font-size: 3.5rem;
+			line-height: 4.2rem;
+			font-weight: 800;
+			text-align: center;
+			max-width: 46rem;
+			margin: 0 auto 3rem;
+			color: #102d3e;
+		}
+		h2{
+			font-weight: normal;
+			color: #3B4752;
+		}
+	}
+}
