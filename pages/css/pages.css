@@ -8819,7 +8819,7 @@ body .jumbo h2 {
   color: #3B4752;
 }
 body {
-  font-family: wf_segoe-ui_light, wf_segoe-ui_normal, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Dosis', futura, wf_segoe-ui_light, wf_segoe-ui_normal, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 img {
   max-width: 100%;
@@ -8831,16 +8831,18 @@ body p {
   font-size: 1rem;
   letter-spacing: .5px;
 }
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  font-weight: bold;
+}
 body h6 {
   font-size: .8rem;
   font-weight: bold;
   text-transform: uppercase;
-}
-.hero {
-  background-color: white;
-}
-.hero h1 {
-  font-weight: 400;
 }
 .hero dd,
 .hero p {
