@@ -8844,6 +8844,9 @@ body h6 {
   font-weight: bold;
   text-transform: uppercase;
 }
+body .block-title {
+  font-weight: bold;
+}
 .hero dd,
 .hero p {
   display: block;
