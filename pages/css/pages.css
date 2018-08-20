@@ -8878,7 +8878,16 @@ section.benefits svg {
 	stroke-width: 15px;
 }
 
-
+header{
+	background: white;
+	width: 100%;
+	padding: 2rem 0;
+	box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.01), 0px 6px 18px 0px rgba(0, 0, 0, 0.05);
+}
+/**/
+.card-selector{
+	padding: 5% 0 0;
+}
 /**/
 .brick-container{
 	text-align: center;
@@ -8908,6 +8917,9 @@ section.benefits svg {
 	height: 180px;
 	position: relative;
 	background-color: #CFD8DC;
+	background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
 }
 
 .brick-text-container{
@@ -8923,13 +8935,41 @@ section.benefits svg {
 	color: #929197;
 	display: block;
 	padding: 0px;
+	font-size: 12px; 
+}
+a.brick {
+    width: 200px;
+}
+a .brick-image{
+    width: 200px;
+    height: 100px;
+}
+a.btn.btn-rounded.btn-border {
+    margin: 10px 0 0;
+    background-color: transparent;
+    border-color: lightgray;
+    color: lightslategray;
+}
+
+/**/
+.disabled{
+	opacity: .5;
+	user-select: none;
+	cursor: normal;
 }
 
 
-
-
-
-
+/**/
+#size,
+#border,
+#design 
+{
+	display: none;
+}
+.fadeOut{
+	opacity: 0;
+	transition: opacity 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 
 
