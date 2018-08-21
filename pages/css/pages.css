@@ -8944,6 +8944,9 @@ a .brick-image{
     width: 200px;
     height: 100px;
 }
+a.brick.couchemate.square .brick-image {
+    height: 200px;
+}
 a.btn.btn-rounded.btn-border {
     margin: 10px 0 0;
     background-color: transparent;
@@ -8957,7 +8960,6 @@ a.btn.btn-rounded.btn-border {
 	user-select: none;
 	cursor: normal;
 }
-
 
 /**/
 #size,
