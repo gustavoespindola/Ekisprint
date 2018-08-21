@@ -8947,6 +8947,12 @@ a .brick-image{
 a.brick.couchemate.square .brick-image {
     height: 200px;
 }
+a.straight {
+    border-radius: 0px 0px 8px 8px;
+}
+.straight .brick-image {
+	border-radius: 0;
+}
 a.btn.btn-rounded.btn-border {
     margin: 10px 0 0;
     background-color: transparent;
