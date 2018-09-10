@@ -8728,51 +8728,6 @@ sup.dollar {
   }
 }
 /*** Retina Display Images **/
-.theme body {
-  letter-spacing: -0.25px !important;
-}
-.theme body p {
-  letter-spacing: -0.15px;
-}
-.theme body .block-title {
-  font-family: inherit;
-  font-weight: 400;
-  font-size: inherit;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
-}
-.theme body .btn-primary {
-  background-color: #3951FF;
-  border: 0;
-}
-.theme body .btn-primary:hover {
-  background-color: #4366ff;
-  border: 0;
-}
-.theme body .btn-primary:focus,
-.theme body .btn-primary.active,
-.theme body .btn-primary:active,
-.theme body .btn-primary.active:focus,
-.theme body .btn-primary:active:focus,
-.theme body .btn-primary:active:hover {
-  background-color: #2b47d0 !important;
-  border: 0;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
-  transition: all 0.2s;
-}
-.theme body .jumbo h1 {
-  font-size: 3.5rem;
-  line-height: 4.2rem;
-  font-weight: 800;
-  text-align: center;
-  max-width: 46rem;
-  margin: 0 auto 3rem;
-  color: #102d3e;
-}
-.theme body .jumbo h2 {
-  font-weight: normal;
-  color: #3B4752;
-}
 body {
   letter-spacing: -0.25px !important;
 }
@@ -8787,7 +8742,6 @@ body .block-title {
   letter-spacing: 0.03em;
 }
 body .btn-primary {
-  background-color: #3951FF;
   border: 0;
 }
 body .btn-primary:hover {
