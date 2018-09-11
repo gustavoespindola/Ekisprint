@@ -8734,6 +8734,9 @@ body {
 body p {
   letter-spacing: -0.15px;
 }
+body .hide {
+  display: none !important;
+}
 body .block-title {
   font-family: inherit;
   font-weight: 400;
